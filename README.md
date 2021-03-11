@@ -2,11 +2,11 @@
 
 ## Directory Structure
     
-   ├── client                    # Components, services and styling using REACT
-   ├── server                    # Rest API, DB integration using MongoDB 
+    .   
+	├── client                    # Components, services and styling using REACT
+    ├── server                    # Rest API, DB integration using Node  
+
   
-
-
 ## List of tools required :
 
 ### Node 
