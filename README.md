@@ -1,10 +1,10 @@
 # Project-MyTown
 
 ## Directory Structure
-    .   
-  ├── client                    # Components, services and styling using REACT
-  ├── server                    # Rest API, DB integration using MongoDB 
     
+   ├── client                    # Components, services and styling using REACT
+   ├── server                    # Rest API, DB integration using MongoDB 
+  
 
 ## List of tools required :
 
