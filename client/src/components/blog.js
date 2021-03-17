@@ -28,7 +28,7 @@ class Blog extends Component {
     componentDidMount(){
 
         let userList = this.props.user;
-        const url = `localhost:3000/storeBlog/${userList.join(",")}`
+        const url = `http://localhost:3000/storeBlog/${userList.join(",")}`
         axios.get(url).then(res =>{
             console.log(res)
             this.setState({blogData : res.data})

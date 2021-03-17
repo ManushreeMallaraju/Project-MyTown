@@ -19,7 +19,6 @@ blogRouter.route('/')
                 blog:req.body.blog
             }
             console.log(obj);
-            res.json("success")
 
             outArr.push(obj);
         blog.create(outArr)
@@ -38,8 +37,7 @@ blogRouter.route('/:name')
     .get(cors.corsWithOptions, (req, res, next) => {
         const current_user = req.params.name.split(",");
 
-        res.json(obj)
-        blog.find({ "name": current_user })
+        blog.find({ "name": { $in : current_user }})
             .then((data) => {
                 console.log(data);
                 res.statusCode = 200;

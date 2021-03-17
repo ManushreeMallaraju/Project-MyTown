@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { Component } from "react"
 import {connect} from 'react-redux'
 
-const URL = "localhost:3000/storeBlog"
+const URL = "http://localhost:3000/storeBlog"
 class Login extends Component {
     constructor(props) {
         super(props);
