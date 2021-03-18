@@ -47,6 +47,4 @@ blogRouter.route('/:name')
             .catch(err => next(err));
     });
 
-
-
 module.exports = blogRouter;
