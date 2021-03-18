@@ -13,13 +13,13 @@ var config = require('./config');
 
 const url = config.mongoUrl;
 
-//const connect = mongoose.connect(url);
+const connect = mongoose.connect(url);
 
-// connect.then((db) => {
-//   console.log('Connected to server');
-// }, (err) => {
-//   console.log(err);
-// });
+connect.then((db) => {
+  console.log('Connected to server');
+}, (err) => {
+  console.log(err);
+});
 
 var app = express();
 
