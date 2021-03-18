@@ -5,7 +5,7 @@
     .   
 	├── client                    # Components, services and styling using REACT
     ├── server                    # Rest API, DB integration using Node  
-
+    ├── database                  # MongoDB    
   
 ## List of tools required :
 
@@ -16,6 +16,10 @@ https://nodejs.org/en/
 ### React
 
 https://reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial
+
+### MongoDB
+
+https://docs.mongodb.com/manual/installation/
 
 
 ## Steps to run the application
